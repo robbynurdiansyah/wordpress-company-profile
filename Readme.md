@@ -1,68 +1,44 @@
-# Laravel JWT Integration
+# WordPress Company Profile Website
 
-This repository demonstrates a simple integration of **Laravel** with **JSON Web Tokens (JWT)** for authentication.  
-It includes a minimal example with **one controller** that generates a token based on an application key and secret.
+This repository showcases a **Company Profile Website** built with **WordPress**.  
+The project demonstrates how WordPress can be customized and configured to create a professional, responsive, and easy-to-manage company website.
 
 ---
 
 ## Features
-- Laravel 12 framework.
-- JWT-based authentication using [`firebase/php-jwt`](https://github.com/firebase/php-jwt).
-- Example controller for issuing JWT tokens.
-- Clean and minimal setup for learning or starting point.
+- WordPress CMS with custom theme and plugins.
+- Responsive design (mobile-friendly).
+- Home page with company introduction and services.
+- About page with company history, vision, and mission.
+- Services page to describe company offerings.
+- Portfolio or Projects section.
+- Contact page with contact form and Google Maps integration.
+- SEO-friendly structure.
+- Easy content management via WordPress admin dashboard.
 
 ---
 
-## Requirements
-- PHP >= 8.2
-- Composer
-- Laravel 12
-- PostgreSQL or MySQL (optional for testing, not required for token generation)
+## Tech Stack
+- **WordPress** (latest version).
+- **PHP** >= 7.4.
+- **MySQL / MariaDB**.
+- **HTML5, CSS3, JavaScript**.
+- Custom WordPress Theme (optional).
+- Elementor / Gutenberg for page building (optional).
+- Contact Form 7 (for contact forms).
 
 ---
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository or copy the project files:
    ```bash
-   git clone https://github.com/yourusername/laravel-jwt-integration.git
-   cd laravel-jwt-integration
-
-2. Install dependencies:
-   ```bash
-   composer install
-
-3. Copy the environment file:
-   ```bash
-   cp .env.example .env
+   git clone https://github.com/yourusername/wordpress-company-profile.git
    
-4. Add the following variables to your .env file:
+2. Set up a local WordPress environment (using tools like XAMPP, Laragon, or Local WP).
+3. Import the database (if included) and update the wp-config.php file with your database credentials.
+4. Start your local server and open:
    ```bash
-   TOKEN_APP_KEY=your_app_key
-   TOKEN_APP_SECRET=your_app_secret
-   
-5. Generate Laravel application key:
+   http://localhost/wordpress-company-profile
+5. Log in to the WordPress Admin Panel:
    ```bash
-   php artisan key:generate
-
-6. Start the local development server:
-   ```bash
-   php artisan serve
-
-## Usage
-Endpoint: POST /api/token
-
-Request a JWT token by sending the app_key in the request body.
-
-#Example Request
-```bash
-curl -X POST http://127.0.0.1:8000/api/token \
-  -H "Content-Type: application/json" \
-  -d '{"app_key": "your_app_key"}'
-```
-
-#Example Response
-```bash
-{
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1..."
-}
-
+   http://localhost/wordpress-company-profile/wp-admin
