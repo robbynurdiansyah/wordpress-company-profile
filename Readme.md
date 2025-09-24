@@ -23,7 +23,7 @@ The project demonstrates how WordPress can be customized and configured to creat
 - **PHP** >= 7.4.
 - **MySQL / MariaDB**.
 - **HTML5, CSS3, JavaScript**.
-- **Custom WordPress Theme** based on **Neveu** (lightweight & flexible)  
+- **WordPress Theme** based on **Neve** (lightweight & flexible)  
 
 ---
 
