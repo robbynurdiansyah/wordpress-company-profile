@@ -1,4 +1,4 @@
-# WordPress Company Profile Website
+# NextGen Digital - Company Profile Website
 
 This repository showcases a **Company Profile Website** built with **WordPress**.  
 The project demonstrates how WordPress can be customized and configured to create a professional, responsive, and easy-to-manage company website.
