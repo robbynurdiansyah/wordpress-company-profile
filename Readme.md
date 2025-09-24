@@ -23,9 +23,7 @@ The project demonstrates how WordPress can be customized and configured to creat
 - **PHP** >= 7.4.
 - **MySQL / MariaDB**.
 - **HTML5, CSS3, JavaScript**.
-- Custom WordPress Theme (optional).
-- Elementor / Gutenberg for page building (optional).
-- Contact Form 7 (for contact forms).
+- **Custom WordPress Theme** based on **Neveu** (lightweight & flexible)  
 
 ---
 
@@ -42,3 +40,23 @@ The project demonstrates how WordPress can be customized and configured to creat
 5. Log in to the WordPress Admin Panel:
    ```bash
    http://localhost/wordpress-company-profile/wp-admin
+
+---
+
+## Purpose
+
+This project is created as a portfolio showcase to demonstrate:
+
+Building a professional business site with WordPress
+
+Setting up a custom theme and essential plugins
+
+Delivering a clean, responsive, and impactful design
+
+---
+
+## Author
+
+Robby Bambang Nurdiansyah
+
+Web Developer | QA Engineer | n8n Automation
