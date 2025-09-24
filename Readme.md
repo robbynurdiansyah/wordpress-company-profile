@@ -43,6 +43,31 @@ The project demonstrates how WordPress can be customized and configured to creat
 
 ---
 
+## Preview
+
+#### Homepage
+![Homepage Preview](screenshoot/Home.png)
+
+#### Feature
+![Homepage Preview](screenshoot/Feature.png)
+
+#### Footer
+![Homepage Preview](screenshoot/Footer.png)
+
+#### About
+![Homepage Preview](screenshoot/About.png)
+
+#### Portofolio
+![Homepage Preview](screenshoot/Portofolio.png)
+
+#### Team
+![Homepage Preview](screenshoot/Team.png)
+
+#### Contact
+![Homepage Preview](screenshoot/Contact.png)
+
+---
+
 ## Purpose
 
 This project is created as a portfolio showcase to demonstrate:
